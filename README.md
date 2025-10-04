@@ -1,7 +1,7 @@
 Playing with bitwise operations and bit-shifting
 
 #### Dev Log
-- Update 1.1.0 - added QoL contract inside the game
+- Update 1.1.0 - added QoL instructions during gameplay
 - Update 1.0.1 - fixed some item configs
 - Release 1.0.0
 
