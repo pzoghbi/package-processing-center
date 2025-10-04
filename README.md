@@ -1,4 +1,20 @@
-Playing around with bitwise operations
+Playing around with bitwise operations  
+`GameManager.cs`
+```cs
+// first two bits reserved for box type [1 = small, 2 = medium, 3 = large, 0 = invalid]
+if (GetType(idata.weight) == (i.type & 0b11)) { 
+    points += 1;
+}
+
+// Third bit = Fragile?
+var fragValue = (i.type >> 2) & 1;
+var realFrag = idata.fragile ? 1 : 0;
+if (realFrag != fragValue) {
+    points -= 1;
+}
+
+// ...
+```
 
 #### Dev Log
 - Update 1.1.0 - added QoL instructions during gameplay
