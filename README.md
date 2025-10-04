@@ -1,4 +1,4 @@
-Playing with bitwise operations and bit-shifting
+Playing around with bitwise operations
 
 #### Dev Log
 - Update 1.1.0 - added QoL instructions during gameplay
